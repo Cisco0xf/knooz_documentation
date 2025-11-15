@@ -21004,7 +21004,7 @@ ay_(a,b,c){var s=null
 return new A.ho(new A.a30(s,c,s,s,s,b,s,a),s)},
 axZ(a){var s=a.ak(t.uy)
 return s==null?null:s.gxA()},
-bf(a,b,c,d){return new A.tt(a,null,c,d,null,b,null)},
+bf(a,b,c,d,e){return new A.tt(a,null,c,d,e,b,null)},
 aAV(a,b,c,d){return new A.tt(null,a,b,c,d,null,null)},
 aPz(a,b){var s=A.ey(a.aU(null),B.b.gP(a.gjG())),r=A.ey(b.aU(null),B.b.gP(b.gjG())),q=A.aPA(s,r)
 if(q!==0)return q
@@ -22653,8 +22653,8 @@ dE(a){var s=A.FX(a)
 return s},
 k2(a,b,c,d){return new A.Gk(a,d,b,c,null)},
 azC(a){return new A.MQ(a,null)},
-aEE(a,b,c){var s=null,r=$.ax0(),q=A.ct(6,B.a4),p=A.ct(7,B.a4),o=A.bf(c,s,A.bU(s,16,!0,s),s)
-r.U1(B.aO,!0,A.c4(0,a),A.bf(b,s,A.bU(s,s,!1,s),s),B.J,p,q,!1,o,B.abO)},
+aEE(a,b,c){var s=null,r=$.ax0(),q=A.ct(6,B.a4),p=A.ct(7,B.a4),o=A.bf(c,s,A.bU(s,16,!0,s),s,s)
+r.U1(B.aO,!0,A.c4(0,a),A.bf(b,s,A.bU(s,s,!1,s),s,s),B.J,p,q,!1,o,B.abO)},
 Gk:function Gk(a,b,c,d,e){var _=this
 _.c=a
 _.d=b
@@ -42487,7 +42487,7 @@ s.WC()},
 J(a){var s,r,q,p=this,o=null,n=p.e
 n===$&&A.b()
 s=n.a
-r=A.bf(s,o,n.c,n.b)
+r=A.bf(s,o,n.c,n.b,o)
 q=p.f
 q===$&&A.b()
 if(q.a.a!==B.mx){q=p.d
@@ -42563,7 +42563,7 @@ p===$&&A.b()
 s=q.e
 r=B.d.ac(J.ax3(p.b.a_(p.a.gm()),0,1)*s.gD(0))
 A.cZ(r,"count")
-return A.bf(s.Mh(r).a,null,q.c,q.b)}}
+return A.bf(s.Mh(r).a,null,q.c,q.b,null)}}
 A.jv.prototype={
 gN(a){return new A.Ql(this.a,0,0)},
 gP(a){var s=this.a,r=s.length
@@ -73303,21 +73303,21 @@ $S:0}
 A.N3.prototype={
 J(a){var s=null,r=A.ct(7,B.a4),q=this.d,p=A.es(q?$.At:$.fd,1),o=this.c,n=q?$.At:s
 r=A.ca(s,A.h_(o.b,n,s,s),B.v,s,s,new A.bC(s,s,p,s,s,s,B.bs),s,s,s,s,r,s,s,s)
-return A.k2(A.bN(A.a([r,B.On,A.bf(o.a,s,A.bU(q?$.At:s,s,!1,s),s)],t.p),B.n,B.p,B.m),4,this.e,10)}}
+return A.k2(A.bN(A.a([r,B.On,A.bf(o.a,s,A.bU(q?$.At:s,s,!1,s),s,s)],t.p),B.n,B.p,B.m),4,this.e,10)}}
 A.MN.prototype={
-dj(a,b){var s=null,r=b.cY($.dV(),t.y),q=A.eG()===B.d4||A.eG()===B.cj||A.eG()===B.d3,p=A.ct(10,B.c_),o=t.p,n=A.a([new A.qc(r,s),new A.cz(A.ct(10,B.c_),A.ba(A.a([B.ow,B.cx,A.nV(A.bf("\u0645\u0631\u062d\u0628\u064b\u0627 \u0628\u0643 \u0641\u064a \u0645\u0648\u0642\u0639 \u062a\u0637\u0628\u064a\u0642 \u0643\u064f\u0646\u064f\u0648\u0632",s,A.bU(s,20,!0,s),s))],o),B.n,B.p,B.m),s),B.b8,B.add,B.b8,B.Gk,B.bL],o)
-if(!q)n.push(A.ba(A.a([B.Pv,A.bf("\u0627\u0644\u0645\u0648\u0642\u0639 \u064a\u0639\u0645\u0644 \u0627\u0643\u062b\u0631 \u0633\u0644\u0627\u0633\u0629 \u0639\u0644\u064a Desktop ",s,A.bU(B.aH,12,!1,s),s)],o),B.n,B.bm,B.m))
+dj(a,b){var s=null,r=b.cY($.dV(),t.y),q=A.eG()===B.d4||A.eG()===B.cj||A.eG()===B.d3,p=A.ct(10,B.c_),o=t.p,n=A.a([new A.qc(r,s),new A.cz(A.ct(10,B.c_),A.ba(A.a([B.ow,B.cx,A.nV(A.bf("\u0645\u0631\u062d\u0628\u064b\u0627 \u0628\u0643 \u0641\u064a \u0645\u0648\u0642\u0639 \u062a\u0637\u0628\u064a\u0642 \u0643\u064f\u0646\u064f\u0648\u0632",s,A.bU(s,20,!0,s),s,s))],o),B.n,B.p,B.m),s),B.b8,B.add,B.b8,B.Gk,B.bL],o)
+if(!q)n.push(A.ba(A.a([B.Pv,A.bf("\u0627\u0644\u0645\u0648\u0642\u0639 \u064a\u0639\u0645\u0644 \u0627\u0643\u062b\u0631 \u0633\u0644\u0627\u0633\u0629 \u0639\u0644\u064a Desktop ",s,A.bU(B.aH,12,!1,s),s,s)],o),B.n,B.bm,B.m))
 n.push(B.OB)
 return A.A3(A.bN(n,B.n,B.p,B.m),p,B.al)}}
 A.MJ.prototype={
 dj(a,b){var s=null
 return A.axR(B.b4,s,s,s,!1,B.al,!1,A.a([B.a6C,new A.A9(new A.Q5(new A.aas(b.cY($.dV(),t.y)),6,!0,!0,!0,s),s),B.a6B],t.p))}}
 A.aas.prototype={
-$2(a,b){var s,r,q=null,p=B.kp[b],o=A.ct(5,B.a4),n=A.ct(10,B.a4),m=A.dE(10),l=this.a,k=l?B.fO:B.dj,j=A.es($.fd,1),i=t.p,h=t.l,g=A.bN(A.a([A.ba(A.a([A.mG(A.aAS(p.a),30),B.aB,A.bf(p.d,q,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q)],i),B.n,B.p,B.m),B.b8,new A.yT(p.b,p.c,A.aj(a,B.t,h).w.a.a*0.4,q)],i),B.Y,B.p,B.m),f=A.aj(a,B.t,h).w
+$2(a,b){var s,r,q=null,p=B.kp[b],o=A.ct(5,B.a4),n=A.ct(10,B.a4),m=A.dE(10),l=this.a,k=l?B.fO:B.dj,j=A.es($.fd,1),i=t.p,h=t.l,g=A.bN(A.a([A.ba(A.a([A.mG(A.aAS(p.a),30),B.aB,A.bf(p.d,q,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q,q)],i),B.n,B.p,B.m),B.b8,new A.yT(p.b,p.c,A.aj(a,B.t,h).w.a.a*0.4,q)],i),B.Y,B.p,B.m),f=A.aj(a,B.t,h).w
 h=A.aj(a,B.t,h).w
 l=A.a([A.ba(A.a([g,A.k2(A.cJ(A.oe(l?p.e:p.f),f.a.b*0.12,h.a.a*0.2),10,new A.aar(a,l,p),10)],i),B.Y,B.cQ,B.m)],i)
 for(h=p.r,g=h.length,f=t.r,s=0;s<g;++s){r=h[s]
-B.b.C(l,A.bJ([A.ba(A.a([B.k5,B.cx,new A.ft(1,B.b6,A.bf(r,q,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(q,q,q,0,q),q),q)],i),B.n,B.p,B.m)],f))}return A.ca(q,A.bN(l,B.n,B.p,B.m),B.v,q,q,new A.bC(k,q,j,m,q,q,B.Z),q,q,q,n,o,q,q,q)},
+B.b.C(l,A.bJ([A.ba(A.a([B.k5,B.cx,new A.ft(1,B.b6,A.bf(r,q,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(q,q,q,0,q),q,q),q)],i),B.n,B.p,B.m)],f))}return A.ca(q,A.bN(l,B.n,B.p,B.m),B.v,q,q,new A.bC(k,q,j,m,q,q,B.Z),q,q,q,n,o,q,q,q)},
 $S:428}
 A.aar.prototype={
 $0(){var s=0,r=A.S(t.H),q=this,p
@@ -73333,7 +73333,7 @@ A.MM.prototype={
 J(a){return A.A3(A.bN(A.a([B.bL,B.Gp,B.cw,new A.cz(A.ct(10,B.a4),B.a4_,null),B.cw,new A.cz(A.ct(10,B.a4),B.Fg,null),B.om],t.p),B.n,B.p,B.m),null,B.al)}}
 A.ML.prototype={
 J(a){var s=null,r=A.ct(10,B.a4)
-return A.A3(A.bN(A.a([A.bf("\u0639\u0646 \u0627\u0644\u0645\u0637\u0648\u0631",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s),B.bf,B.oq,B.cw,A.bf("\u062a\u0648\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s),B.bf,B.a4o,B.bf,A.cJ(B.No,s,A.aj(a,B.t,t.l).w.a.a*0.8),B.b8,B.nV,B.om],t.p),B.n,B.p,B.m),r,B.al)}}
+return A.A3(A.bN(A.a([A.bf("\u0639\u0646 \u0627\u0644\u0645\u0637\u0648\u0631",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s,s),B.bf,B.oq,B.cw,A.bf("\u062a\u0648\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s,s),B.bf,B.a4o,B.bf,A.cJ(B.No,s,A.aj(a,B.t,t.l).w.a.a*0.8),B.b8,B.nV,B.om],t.p),B.n,B.p,B.m),r,B.al)}}
 A.N5.prototype={
 dj(a,b){var s,r=b.cY($.q8(),t.S),q=J.hy(4,t.r)
 for(s=0;s<4;++s)q[s]=new A.Ay(B.hG[s],r===s,new A.ab0(b,s),null)
@@ -73359,7 +73359,7 @@ q=q.d
 l=p?B.eO:i
 l=A.h_(q.b,l,i,20)
 k=t.p
-s=A.ai8(A.a0O(A.k2(A.ba(A.a([l,B.aB,A.bf(q.a,i,A.bU(p?B.eO:i,14,!1,i),B.iK)],k),B.n,B.cR,B.m),7,m,10),new A.bC(i,i,o,n,i,i,B.Z),B.aO,r),s)
+s=A.ai8(A.a0O(A.k2(A.ba(A.a([l,B.aB,A.bf(q.a,i,A.bU(p?B.eO:i,14,!1,i),B.iK,i)],k),B.n,B.cR,B.m),7,m,10),new A.bC(i,i,o,n,i,i,B.Z),B.aO,r),s)
 return A.ez(A.bN(A.a([s,B.OA,new A.vb(j.a.e?A.ca(i,i,B.v,i,i,new A.bC(B.eO,i,i,A.dE(5),i,i,B.Z),i,4,i,i,i,i,i,35):B.dO,B.aO,i)],k),B.n,B.p,B.m),B.at,new A.apG(j),new A.apH(j),i)}}
 A.apG.prototype={
 $1(a){var s=this.a
@@ -73409,9 +73409,9 @@ $C:"$3",
 $R:3,
 $S:429}
 A.kT.prototype={
-dj(a,b){var s,r,q=null,p=b.cY($.dV(),t.y),o=A.ct(10,B.a4),n=A.ct(10,B.a4),m=A.dE(10),l=p?B.fO:B.dj,k=A.es($.fd,1),j=A.aj(a,B.t,t.l).w,i=this.e,h=t.p,g=A.ba(A.a([A.mG(A.aAS(i.a),30),B.aB,A.bf(i.d,q,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q)],h),B.n,B.p,B.ay),f=i.r,e=f.length,d=J.hy(e,t.r)
+dj(a,b){var s,r,q=null,p=b.cY($.dV(),t.y),o=A.ct(10,B.a4),n=A.ct(10,B.a4),m=A.dE(10),l=p?B.fO:B.dj,k=A.es($.fd,1),j=A.aj(a,B.t,t.l).w,i=this.e,h=t.p,g=A.ba(A.a([A.mG(A.aAS(i.a),30),B.aB,A.bf(i.d,q,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q,q)],h),B.n,B.p,B.ay),f=i.r,e=f.length,d=J.hy(e,t.r)
 for(s=0;s<e;++s){r=f[s]
-d[s]=A.ba(A.a([B.k5,B.aB,new A.ft(1,B.b6,A.bf(r,B.iM,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(q,q,q,0,q),q),q)],h),B.n,B.p,B.m)}j=A.cJ(A.bN(A.a([g,B.b8,new A.yT(i.b,i.c,q,q),B.b8,A.bN(d,B.n,B.p,B.ay)],h),B.Y,B.p,B.ay),q,j.a.a*0.29)
+d[s]=A.ba(A.a([B.k5,B.aB,new A.ft(1,B.b6,A.bf(r,B.iM,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(q,q,q,0,q),q,q),q)],h),B.n,B.p,B.m)}j=A.cJ(A.bN(A.a([g,B.b8,new A.yT(i.b,i.c,q,q),B.b8,A.bN(d,B.n,B.p,B.ay)],h),B.Y,B.p,B.ay),q,j.a.a*0.29)
 return A.ca(q,A.ba(A.a([j,new A.zx(p?i.e:i.f,q)],h),B.n,B.p,B.ay),B.v,q,q,new A.bC(l,q,k,m,q,q,B.Z),q,q,q,n,o,q,q,q)}}
 A.yT.prototype={
 J(a){var s=this.e
@@ -73462,15 +73462,15 @@ s.aH()}}
 A.nO.prototype={}
 A.IJ.prototype={
 J(a){var s,r=null,q=t.l,p=A.ct(A.aj(a,B.t,q).w.a.a<800?0:50,B.c_),o=A.aj(a,B.t,q).w,n=t.p
-o=A.cJ(A.bN(A.a([A.bf("\u0639\u0646 \u0627\u0644\u0645\u0637\u0648\u0631",r,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),r),B.bf,B.oq],n),B.n,B.p,B.m),r,o.a.a*0.37)
+o=A.cJ(A.bN(A.a([A.bf("\u0639\u0646 \u0627\u0644\u0645\u0637\u0648\u0631",r,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),r,r),B.bf,B.oq],n),B.n,B.p,B.m),r,o.a.a*0.37)
 s=A.aj(a,B.t,q).w
-return A.nV(A.A3(A.bN(A.a([A.ba(A.a([o,A.cJ(A.bN(A.a([A.bf("\u062a\u0648\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631",r,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),r),B.bf,B.a4n],n),B.n,B.p,B.m),r,s.a.a*0.37)],n),B.Y,B.cR,B.m),A.cJ(B.Nn,r,A.aj(a,B.t,q).w.a.a*0.5),B.nV,B.Ow],n),B.n,B.cQ,B.m),p,B.al))}}
+return A.nV(A.A3(A.bN(A.a([A.ba(A.a([o,A.cJ(A.bN(A.a([A.bf("\u062a\u0648\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631",r,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),r,r),B.bf,B.a4n],n),B.n,B.p,B.m),r,s.a.a*0.37)],n),B.Y,B.cR,B.m),A.cJ(B.Nn,r,A.aj(a,B.t,q).w.a.a*0.5),B.nV,B.Ow],n),B.n,B.cQ,B.m),p,B.al))}}
 A.x7.prototype={
 a8(){return A.aP1()}}
 A.VB.prototype={
-J(a){var s,r,q=this,p=null,o=A.ct(20,B.a4),n=q.w,m=A.dE(n?20:10),l=A.es(n?B.IZ:B.e7,1),k=A.bf("\u0625\u0650\u0630\u064e\u0627 \u0645\u064e\u0627\u062a\u064e \u0627\u0644\u0625\u0646\u0652\u0633\u064e\u0627\u0646\u064f \u0627\u0646\u0652\u0642\u064e\u0637\u064e\u0639\u064e \u0639\u0646\u0652\u0647 \u0639\u064e\u0645\u064e\u0644\u064f\u0647\u064f \u0625\u0650\u0644\u0651\u064e\u0627 \u0645\u0650\u0646 \u062b\u064e\u0644\u064e\u0627\u062b\u064e\u0629\u064d: \u0625\u0650\u0644\u0651\u064e\u0627 \u0645\u0650\u0646 \u0635\u064e\u062f\u064e\u0642\u064e\u0629\u064d \u062c\u064e\u0627\u0631\u0650\u064a\u064e\u0629\u064d\u060c \u0623\u064e\u0648\u0652 \u0639\u0650\u0644\u0652\u0645\u064d \u064a\u064f\u0646\u0652\u062a\u064e\u0641\u064e\u0639\u064f \u0628\u0650\u0647\u0650\u060c \u0623\u064e\u0648\u0652 \u0648\u064e\u0644\u064e\u062f\u064d \u0635\u064e\u0627\u0644\u0650\u062d\u064d \u064a\u064e\u062f\u0652\u0639\u064f\u0648 \u0644\u0647.",p,A.bU(p,20,!1,n?q.x:p),p)
+J(a){var s,r,q=this,p=null,o=A.ct(20,B.a4),n=q.w,m=A.dE(n?20:10),l=A.es(n?B.IZ:B.e7,1),k=A.bf("\u0625\u0650\u0630\u064e\u0627 \u0645\u064e\u0627\u062a\u064e \u0627\u0644\u0625\u0646\u0652\u0633\u064e\u0627\u0646\u064f \u0627\u0646\u0652\u0642\u064e\u0637\u064e\u0639\u064e \u0639\u0646\u0652\u0647 \u0639\u064e\u0645\u064e\u0644\u064f\u0647\u064f \u0625\u0650\u0644\u0651\u064e\u0627 \u0645\u0650\u0646 \u062b\u064e\u0644\u064e\u0627\u062b\u064e\u0629\u064d: \u0625\u0650\u0644\u0651\u064e\u0627 \u0645\u0650\u0646 \u0635\u064e\u062f\u064e\u0642\u064e\u0629\u064d \u062c\u064e\u0627\u0631\u0650\u064a\u064e\u0629\u064d\u060c \u0623\u064e\u0648\u0652 \u0639\u0650\u0644\u0652\u0645\u064d \u064a\u064f\u0646\u0652\u062a\u064e\u0641\u064e\u0639\u064f \u0628\u0650\u0647\u0650\u060c \u0623\u064e\u0648\u0652 \u0648\u064e\u0644\u064e\u062f\u064d \u0635\u064e\u0627\u0644\u0650\u062d\u064d \u064a\u064e\u062f\u0652\u0639\u064f\u0648 \u0644\u0647.",p,A.bU(p,20,!1,n?q.x:p),p,p)
 n=t.p
-o=A.ez(A.ca(p,A.bN(A.a([k,A.ba(A.a([A.bf("[\u0631\u0648\u0627\u0647 \u0645\u0633\u0644\u0645]",p,A.bU(p,17,!1,q.w?q.x:p),p)],n),B.n,B.kN,B.m)],n),B.n,B.p,B.m),B.v,p,p,new A.bC(B.dj,p,l,m,p,p,B.Z),p,p,p,p,o,p,p,p),B.at,new A.amA(q),new A.amB(q),p)
+o=A.ez(A.ca(p,A.bN(A.a([k,A.ba(A.a([A.bf("[\u0631\u0648\u0627\u0647 \u0645\u0633\u0644\u0645]",p,A.bU(p,17,!1,q.w?q.x:p),p,p)],n),B.n,B.kN,B.m)],n),B.n,B.p,B.m),B.v,p,p,new A.bC(B.dj,p,l,m,p,p,B.Z),p,p,p,p,o,p,p,p),B.at,new A.amA(q),new A.amB(q),p)
 s=J.hy(4,t.r)
 for(r=0;r<4;++r)s[r]=new A.qA(B.Sz[r],p)
 return A.bN(A.a([o,B.bf,A.bN(s,B.Y,B.p,B.m)],n),B.n,B.p,B.m)}}
@@ -73489,9 +73489,9 @@ A.amz.prototype={
 $0(){return this.a.w=!0},
 $S:0}
 A.zl.prototype={
-dj(a,b){var s,r,q=null,p=b.cY($.dV(),t.y),o=A.bf("\u064a\u0645\u0643\u0646\u0643 \u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u0634\u0643\u0644\u0629 \u0641\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0646\u0645\u0648\u0630\u062c \u0627\u0644\u0634\u0643\u0627\u0648\u064a",q,A.bU(q,17,!1,q),q),n=this.e,m=A.a5x(n?10:30),l=A.dE(10),k=p?B.IT:B.e7,j=A.es($.fd,1),i=A.ct(13,B.a4),h=t.p
-l=A.ca(q,A.k2(A.ba(A.a([A.ca(q,B.Pq,B.v,q,q,new A.bC(q,q,A.es(B.ic,2),q,q,q,B.bs),q,q,q,q,i,q,q,q),B.aB,A.bN(A.a([A.bf("\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u0634\u0643\u0644\u0629",q,A.bU(q,q,!1,q),q),A.bf("\u0633\u0627\u0639\u062f\u0646\u0627 \u0641\u064a \u062a\u062d\u0633\u064a\u0646 \u0627\u0644\u062a\u0637\u0628\u064a\u0642",q,A.bU(q,q,!1,q),q)],h),B.Y,B.p,B.m),B.oc,B.ou],h),B.n,B.p,B.m),10,new A.adZ(),10),B.v,q,q,new A.bC(k,q,j,l,q,q,B.Z),q,q,q,q,q,q,q,q)
-k=A.bf("\u0623\u0648 \u0628\u0625\u0645\u0643\u0627\u0646\u0643 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631 \u0645\u0646 \u062e\u0644\u0627\u0644",q,n?A.bU(q,19,!0,q):A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q)
+dj(a,b){var s,r,q=null,p=b.cY($.dV(),t.y),o=A.bf("\u064a\u0645\u0643\u0646\u0643 \u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u0634\u0643\u0644\u0629 \u0641\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0645\u0646 \u062e\u0644\u0627\u0644 \u0646\u0645\u0648\u0630\u062c \u0627\u0644\u0634\u0643\u0627\u0648\u064a",q,A.bU(q,17,!1,q),q,q),n=this.e,m=A.a5x(n?10:30),l=A.dE(10),k=p?B.IT:B.e7,j=A.es($.fd,1),i=A.ct(13,B.a4),h=t.p
+l=A.ca(q,A.k2(A.ba(A.a([A.ca(q,B.Pq,B.v,q,q,new A.bC(q,q,A.es(B.ic,2),q,q,q,B.bs),q,q,q,q,i,q,q,q),B.aB,A.bN(A.a([A.bf("\u0627\u0644\u0625\u0628\u0644\u0627\u063a \u0639\u0646 \u0645\u0634\u0643\u0644\u0629",q,A.bU(q,q,!1,q),q,q),A.bf("\u0633\u0627\u0639\u062f\u0646\u0627 \u0641\u064a \u062a\u062d\u0633\u064a\u0646 \u0627\u0644\u062a\u0637\u0628\u064a\u0642",q,A.bU(q,q,!1,q),q,q)],h),B.Y,B.p,B.m),B.oc,B.ou],h),B.n,B.p,B.m),10,new A.adZ(),10),B.v,q,q,new A.bC(k,q,j,l,q,q,B.Z),q,q,q,q,q,q,q,q)
+k=A.bf("\u0623\u0648 \u0628\u0625\u0645\u0643\u0627\u0646\u0643 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0637\u0648\u0631 \u0645\u0646 \u062e\u0644\u0627\u0644",q,n?A.bU(q,19,!0,q):A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),q,q)
 j=A.k2(B.MP,10,new A.ae_(),10)
 i=A.ct(5,B.a4)
 i=A.ba(A.a([j,B.aB,A.ca(q,B.ou,B.v,q,q,new A.bC($.fd,q,q,q,q,q,B.bs),q,q,q,q,i,q,q,q)],h),B.n,B.p,B.m)
@@ -73521,7 +73521,7 @@ ga_r(){var s,r,q=J.hy(4,t.gZ)
 for(s=this.a,r=0;r<4;++r){s.toString
 q[r]=new A.fF(B.aH,B.i,r*3)}return q},
 J(a){var s=this,r=null,q=s.a.d
-return A.ez(A.bf(q,r,A.bU(r,17,!1,s.d?s.ga_r():r),r),B.at,new A.al4(s),new A.al5(s),r)}}
+return A.ez(A.bf(q,r,A.bU(r,17,!1,s.d?s.ga_r():r),r,r),B.at,new A.al4(s),new A.al5(s),r)}}
 A.al4.prototype={
 $1(a){var s=this.a
 s.a7(new A.al3(s))},
@@ -73554,7 +73554,7 @@ o=m.a.c.c
 o=A.a([new A.ed(-5,B.e_,p,B.a2J,5),new A.ed(0.5,B.e_,A.al(153,o.gm()>>>16&255,o.gm()>>>8&255,o.gm()&255),B.a2D,5)],t.sq)
 p=o}o=m.d?20:10
 n=m.a.c
-return A.ez(A.j_(A.mG(A.a0O(A.k2(A.bN(A.a([A.h_(n.d,l,l,l),B.Op,A.bf(n.b,B.iM,B.a9O,l)],t.p),B.n,B.bm,B.m),7,new A.alD(m),o),new A.bC(q,l,s,r,p,l,B.Z),B.jV,l),k),B.e),B.at,new A.alE(m),new A.alF(m),l)}}
+return A.ez(A.j_(A.mG(A.a0O(A.k2(A.bN(A.a([A.h_(n.d,l,l,l),B.Op,A.bf(n.b,B.iM,B.a9O,l,l)],t.p),B.n,B.bm,B.m),7,new A.alD(m),o),new A.bC(q,l,s,r,p,l,B.Z),B.jV,l),k),B.e),B.at,new A.alE(m),new A.alF(m),l)}}
 A.alE.prototype={
 $1(a){var s=this.a
 s.a7(new A.alC(s))},
@@ -73587,7 +73587,7 @@ for(r=0;r<4;++r)s[r]=new A.fF(a,B.i,r*3)
 return s}return null},
 Oq(){return this.Or(B.aH)},
 J(a){var s=this,r=null,q=s.d?1.1:1
-return A.ez(A.ai8(A.j_(A.bN(A.a([A.bf("\xa9 2025 Mahmoud Alshehyby. All rights reserved.",r,A.bU(B.ic,r,!1,r),r),B.b8,A.aAV(A.jz(A.a([A.jz(r,A.bU(r,r,!1,s.Oq()),"Developed with "),A.jz(r,A.bU(B.Ao,r,!0,s.Or(B.Ao)),"Flutter "),A.jz(r,A.bU(r,r,!1,s.Oq()),"| Made with love")],t.VO),r,r),r,r,r)],t.p),B.n,B.p,B.m),B.e),q),B.at,new A.al8(s),new A.al9(s),r)}}
+return A.ez(A.ai8(A.j_(A.bN(A.a([A.bf("\xa9 2025 Mahmoud Alshehyby. All rights reserved.",r,A.bU(B.ic,r,!1,r),r,r),B.b8,A.aAV(A.jz(A.a([A.jz(r,A.bU(r,r,!1,s.Oq()),"Developed with "),A.jz(r,A.bU(B.Ao,r,!0,s.Or(B.Ao)),"Flutter "),A.jz(r,A.bU(r,r,!1,s.Oq()),"| Made with love")],t.VO),r,r),r,r,r)],t.p),B.n,B.p,B.m),B.e),q),B.at,new A.al8(s),new A.al9(s),r)}}
 A.al8.prototype={
 $1(a){var s=this.a
 s.a7(new A.al7(s))},
@@ -73626,18 +73626,18 @@ s=A.ca(k,B.Pu,B.v,k,k,new A.bC($.Au,k,k,k,k,k,B.bs),k,k,k,k,s,k,k,k)
 r=t.l
 q=A.aj(a,B.t,r).w.a.a<855?A.aj(a,B.t,r).w.a.a*0.44:k
 p=this.c
-q=A.cJ(A.bf(p.a,k,B.a9N,k),k,q)
+q=A.cJ(A.bf(p.a,k,B.a9N,k,k),k,q)
 o=A.dE(20)
 n=A.es(B.eO,1)
 m=A.ct(7,B.a4)
-m=A.a([A.ca(k,A.bf(p.d,k,B.a9A,k),B.v,k,k,new A.bC(k,k,n,o,k,k,B.Z),k,k,k,k,m,k,k,k)],j)
+m=A.a([A.ca(k,A.bf(p.d,k,B.a9A,k,B.e),B.v,k,k,new A.bC(k,k,n,o,k,k,B.Z),k,k,k,k,m,k,k,k)],j)
 if(p.c){o=A.ct(6,B.a4)
 B.b.C(m,A.bJ([B.aB,A.ca(k,B.abD,B.v,k,k,new A.bC(k,k,A.es(B.aH,1),A.dE(20),k,k,B.Z),k,k,k,k,o,k,k,k)],t.r))}s=A.ba(A.a([s,B.aB,A.bN(A.a([q,B.Os,A.ba(m,B.n,B.p,B.m)],j),B.Y,B.p,B.m)],j),B.Y,B.p,B.m)
 q=A.at9(k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,new A.dB(new A.cH(A.dE(30),B.Ha),t._o),k,k,k,k,k,k)
-i.push(A.ba(A.a([s,B.od,A.aur(A.azV(A.ba(A.a([A.bf("\u062a\u062d\u0645\u064a\u0644",k,A.bU(k,k,!1,k),k),B.Ot,B.Py],j),B.n,B.p,B.m),new A.a3F(this)),new A.oK(q))],j),B.n,B.p,B.ay))
+i.push(A.ba(A.a([s,B.od,A.aur(A.azV(A.ba(A.a([A.bf("\u062a\u062d\u0645\u064a\u0644",k,A.bU(k,k,!1,k),k,k),B.Ot,B.Py],j),B.n,B.p,B.m),new A.a3F(this)),new A.oK(q))],j),B.n,B.p,B.ay))
 i.push(A.a5x(A.aj(a,B.t,r).w.a.a<855?10:20))
 for(s=p.e,r=s.length,q=t.r,l=0;l<r;++l){p=s[l]
-B.b.C(i,A.bJ([A.ba(A.a([B.k5,B.aB,new A.ft(1,B.b6,A.bf(p,k,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(k,k,k,0,k),k),k)],j),B.n,B.p,B.m)],q))}return A.bN(i,B.n,B.p,B.m)}}
+B.b.C(i,A.bJ([A.ba(A.a([B.k5,B.aB,new A.ft(1,B.b6,A.bf(p,k,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(k,k,k,0,k),k,k),k)],j),B.n,B.p,B.m)],q))}return A.bN(i,B.n,B.p,B.m)}}
 A.a3F.prototype={
 $0(){var s=0,r=A.S(t.H),q=this,p
 var $async$$0=A.N(function(a,b){if(a===1)return A.P(b,r)
@@ -73661,12 +73661,12 @@ J(a){var s,r,q,p=null,o="\u062a\u0637\u0628\u064a\u0642 \u0643\u0646\u0648\u0632
 if(m){s=t.l
 r=A.aj(a,B.t,s).w
 s=A.aj(a,B.t,s).w
-q=A.bf(o,p,A.bU(p,p,!0,p),p)
-j.push(A.cJ(A.ba(A.a([A.bN(A.a([q,B.b8,A.ba(A.a([B.ov,B.cx,A.bf(n,p,A.bU(B.aH,10,!1,p),p)],k),B.n,B.p,B.m)],k),B.Y,B.p,B.m),B.oc,B.a4A],k),B.n,B.cQ,B.m),r.a.b*0.1,s.a.a*0.9))}else{s=A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0)
-s=A.bf(o,p,s,p)
-B.b.C(j,A.bJ([s,B.k3,A.ba(A.a([B.ov,B.cx,A.bf(n,p,A.bU(B.aH,p,!1,p),p)],k),B.n,B.p,B.m)],t.r))}j.push(A.a5x(m?5:10))
+q=A.bf(o,p,A.bU(p,p,!0,p),p,p)
+j.push(A.cJ(A.ba(A.a([A.bN(A.a([q,B.b8,A.ba(A.a([B.ov,B.cx,A.bf(n,p,A.bU(B.aH,10,!1,p),p,p)],k),B.n,B.p,B.m)],k),B.Y,B.p,B.m),B.oc,B.a4A],k),B.n,B.cQ,B.m),r.a.b*0.1,s.a.a*0.9))}else{s=A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0)
+s=A.bf(o,p,s,p,p)
+B.b.C(j,A.bJ([s,B.k3,A.ba(A.a([B.ov,B.cx,A.bf(n,p,A.bU(B.aH,p,!1,p),p,p)],k),B.n,B.p,B.m)],t.r))}j.push(A.a5x(m?5:10))
 s=$.Qt
-j.push(A.ba(A.a([A.h_(B.P9,s,p,p),B.cx,A.aAV(A.jz(A.a([A.jz(p,A.bU(s,p,!0,p),"(51.8 MB)"),B.a8d,A.jz(p,A.bU($.Qt,p,!1,p),"\u062d\u062c\u0645 \u0627\u0644\u062a\u0637\u0628\u064a\u0642")],t.VO),p,p),p,B.iL,B.e),B.a6w,A.k2(A.ba(A.a([B.Pn,B.cx,A.bf("\u0645\u0632\u064a\u062f \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a",p,A.bU(B.cb,10,!1,p),p)],k),B.n,B.p,B.m),10,new A.a10(),10)],k),B.n,B.p,B.m))
+j.push(A.ba(A.a([A.h_(B.P9,s,p,p),B.cx,A.aAV(A.jz(A.a([A.jz(p,A.bU(s,p,!0,p),"(51.8 MB)"),B.a8d,A.jz(p,A.bU($.Qt,p,!1,p),"\u062d\u062c\u0645 \u0627\u0644\u062a\u0637\u0628\u064a\u0642")],t.VO),p,p),p,B.iL,B.e),B.a6w,A.k2(A.ba(A.a([B.Pn,B.cx,A.bf("\u0645\u0632\u064a\u062f \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a",p,A.bU(B.cb,10,!1,p),p,p)],k),B.n,B.p,B.m),10,new A.a10(),10)],k),B.n,B.p,B.m))
 j.push(B.k3)
 j.push(A.ba(A.a([new A.wt(m,p),B.Oy,B.a5A],k),B.n,B.p,B.m))
 k=A.a([A.bN(j,B.Y,B.p,B.m)],k)
@@ -73712,7 +73712,7 @@ q=n.w
 p=A.dE(q?30:10)
 o=$.Au
 q=q?B.Pr:B.Ps
-return A.ez(A.cJ(new A.xP(new A.alO(),o,A.ba(A.a([A.a0P(q,B.aO,new A.alP()),B.aB,A.bf("\u062a\u062d\u0645\u064a\u0644 \u0627\u0644\u062a\u0637\u0628\u064a\u0642",m,A.bU(m,m,!1,m),m)],t.p),B.n,B.bm,B.m),new A.cH(p,B.z),m),r.a.b*0.07,s),B.at,new A.alQ(n),new A.alR(n),m)}}
+return A.ez(A.cJ(new A.xP(new A.alO(),o,A.ba(A.a([A.a0P(q,B.aO,new A.alP()),B.aB,A.bf("\u062a\u062d\u0645\u064a\u0644 \u0627\u0644\u062a\u0637\u0628\u064a\u0642",m,A.bU(m,m,!1,m),m,m)],t.p),B.n,B.bm,B.m),new A.cH(p,B.z),m),r.a.b*0.07,s),B.at,new A.alQ(n),new A.alR(n),m)}}
 A.alQ.prototype={
 $1(a){var s=this.a
 s.a7(new A.alN(s))},
@@ -73740,7 +73740,7 @@ $2(a,b){return A.t_(a,b)},
 $S:111}
 A.PV.prototype={
 J(a){var s=null
-return new A.QC(new A.afI(),s,s,s,s,s,s,!1,s,!0,A.ba(A.a([B.Pw,B.aB,A.bf("\u0645\u0634\u0627\u0631\u0643\u0629",s,A.bU(s,16,!1,s),s)],t.p),B.n,B.p,B.m),s)}}
+return new A.QC(new A.afI(),s,s,s,s,s,s,!1,s,!0,A.ba(A.a([B.Pw,B.aB,A.bf("\u0645\u0634\u0627\u0631\u0643\u0629",s,A.bU(s,16,!1,s),s,s)],t.p),B.n,B.p,B.m),s)}}
 A.afI.prototype={
 $0(){var s=0,r=A.S(t.H),q=1,p,o,n,m
 var $async$$0=A.N(function(a,b){if(a===1){p=b
@@ -73770,22 +73770,22 @@ b.cY($.dV(),t.y)
 s=A.ct(6,B.a4)
 r=A.es($.fd,2)
 q=$.Qt
-return A.ba(A.a([A.ca(p,A.h_(this.e,q,p,p),B.v,p,p,new A.bC(p,p,r,p,p,p,B.bs),p,p,p,p,s,p,p,p),B.Or,A.bf(this.f,p,A.bU(q,20,!0,p),p)],t.p),B.n,B.p,B.m)}}
+return A.ba(A.a([A.ca(p,A.h_(this.e,q,p,p),B.v,p,p,new A.bC(p,p,r,p,p,p,B.bs),p,p,p,p,s,p,p,p),B.Or,A.bf(this.f,p,A.bU(q,20,!0,p),p,p)],t.p),B.n,B.p,B.m)}}
 A.Gy.prototype={
 J(a){return new A.cz(A.ct(20,B.c_),B.a4w,null)}}
 A.yY.prototype={
 J(a){var s=this.c,r=A.a5x(s?10:30),q=t.l
 return A.bN(A.a([B.abI,r,B.a3Y,A.cJ(B.cw,null,s?A.aj(a,B.t,q).w.a.a*0.7:A.aj(a,B.t,q).w.a.a*0.4),B.a3X],t.p),B.Y,B.p,B.m)}}
 A.yX.prototype={
-J(a){var s,r,q,p,o,n=null,m=A.a([A.bf(this.c,n,A.bU(n,n,!0,n),n),B.b8],t.p)
+J(a){var s,r,q,p,o,n=null,m=A.a([A.bf(this.c,n,A.bU(n,n,!0,n),n,n),B.b8],t.p)
 for(s=t.r,r=this.d,q=0;q<2;++q){p=A.av2(a)
 o=q!==1?r[q]+"\n":r[q]
-B.b.C(m,A.bJ([new A.dO(p,n,A.bf(o,n,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(n,n,n,0,n),n),n)],s))}return A.bN(m,B.Y,B.p,B.m)}}
+B.b.C(m,A.bJ([new A.dO(p,n,A.bf(o,n,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(n,n,n,0,n),n,n),n)],s))}return A.bN(m,B.Y,B.p,B.m)}}
 A.Qd.prototype={
 J(a){var s,r,q,p,o=null,n=t.p,m=A.a([B.abJ,B.bf],n)
 for(s=t.r,r=0;r<4;++r){q=A.av2(a)
 p=B.T5[r]
-q=A.bJ([new A.dO(q,o,A.ba(A.a([B.Pp,B.cx,new A.ft(1,B.b6,A.bf(p,o,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(o,o,o,0,o),o),o)],n),B.Y,B.p,B.m),o)],s)
+q=A.bJ([new A.dO(q,o,A.ba(A.a([B.Pp,B.cx,new A.ft(1,B.b6,A.bf(p,o,A.fo().$5$color$fontSize$fontWeight$letterSpacing$shadows(o,o,o,0,o),o,o),o)],n),B.Y,B.p,B.m),o)],s)
 if(r!==3)q.t(0,A.ca(o,B.cw,B.v,o,o,o,o,o,o,o,A.ct(5,B.Om),o,o,A.av2(a)))
 B.b.C(m,q)}return A.bN(m,B.Y,B.p,B.m)}}
 A.asw.prototype={
@@ -73799,7 +73799,7 @@ return A.t_(new A.j1(new A.az(b,new A.ao(0.5,1,s),r),!1,A.j_(A.att(B.a2b,q,new A
 $S:434}
 A.MU.prototype={
 J(a){var s=null,r=A.ct(10,B.a4),q=$.tq,p=A.dE(7),o=A.es($.fd,1),n=t.p
-return new A.cz(r,A.bN(A.a([A.ba(A.a([A.ca(s,A.k2(B.Pt,10,new A.aaC(a),10),B.v,s,s,new A.bC(q,s,o,p,s,s,B.Z),s,s,s,s,s,s,s,s)],n),B.n,B.p,B.ay),B.bL,A.ba(A.a([B.ox,B.aB,A.bf("\u0623\u0630\u0648\u0646\u0627\u062a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",s,A.bU(s,s,!0,s),s)],n),B.n,B.p,B.ay),B.b8,A.bf("\u0628\u0625\u0645\u0643\u0627\u0646 \u0647\u0630\u0627 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649:",s,A.bU(B.ic,s,!1,s),s),B.bL,B.a4t,B.Ou,B.a33,A.cJ(B.cw,s,A.aj(a,B.t,t.l).w.a.a*0.2),A.ba(A.a([B.ox,B.aB,A.bf("\u0645\u0632\u064a\u062f \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a",s,A.bU(s,s,!0,s),s)],n),B.n,B.p,B.ay),B.bL,B.a4u,B.bL,B.a35],n),B.Y,B.p,B.ay),s)}}
+return new A.cz(r,A.bN(A.a([A.ba(A.a([A.ca(s,A.k2(B.Pt,10,new A.aaC(a),10),B.v,s,s,new A.bC(q,s,o,p,s,s,B.Z),s,s,s,s,s,s,s,s)],n),B.n,B.p,B.ay),B.bL,A.ba(A.a([B.ox,B.aB,A.bf("\u0623\u0630\u0648\u0646\u0627\u062a \u0627\u0644\u062a\u0637\u0628\u064a\u0642",s,A.bU(s,s,!0,s),s,s)],n),B.n,B.p,B.ay),B.b8,A.bf("\u0628\u0625\u0645\u0643\u0627\u0646 \u0647\u0630\u0627 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649:",s,A.bU(B.ic,s,!1,s),s,s),B.bL,B.a4t,B.Ou,B.a33,A.cJ(B.cw,s,A.aj(a,B.t,t.l).w.a.a*0.2),A.ba(A.a([B.ox,B.aB,A.bf("\u0645\u0632\u064a\u062f \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a",s,A.bU(s,s,!0,s),s,s)],n),B.n,B.p,B.ay),B.bL,B.a4u,B.bL,B.a35],n),B.Y,B.p,B.ay),s)}}
 A.aaC.prototype={
 $0(){A.mb(this.a,!1).R9(null)},
 $S:0}
@@ -73807,8 +73807,8 @@ A.kB.prototype={
 J(a){var s,r,q=null,p=A.h_(this.c,q,q,q),o=t.l
 o=A.aj(a,B.t,o).w.a.a<855?A.aj(a,B.t,o).w.a.a*0.3:A.aj(a,B.t,o).w.a.a*0.16
 s=t.p
-r=A.a([A.bf(this.d,q,A.bU(q,q,!0,q),q)],s)
-r.push(A.bf(this.e,q,A.bU(B.ic,q,!1,q),q))
+r=A.a([A.bf(this.d,q,A.bU(q,q,!0,q),q,q)],s)
+r.push(A.bf(this.e,q,A.bU(B.ic,q,!1,q),q,q))
 return A.cJ(A.ba(A.a([p,B.aB,A.cJ(A.bN(r,B.Y,B.p,B.m),q,o)],s),B.Y,B.p,B.ay),q,q)}}
 A.JZ.prototype={
 dj(a,b){var s=b.cY($.dV(),t.y),r=t.l,q=A.aj(a,B.t,r).w,p=t.p
@@ -73847,7 +73847,7 @@ l=A.es(l,m?2:1)
 s=A.dE(10)
 m=o?B.fO:B.dj
 r=q.a.d?p:A.aj(a,B.t,t.l).w.a.a*0.4
-return A.ez(A.ca(p,A.bf("\u0643\u064f\u0646\u064f\u0648\u0632 \u0647\u0648 \u062a\u0637\u0628\u064a\u0642 \u0625\u0633\u0644\u0627\u0645\u064a \u0634\u0627\u0645\u0644\u060c \u0635\u0645\u0645\u062a\u0647 \u0644\u064a\u0643\u0648\u0646 \u0628\u0645\u062b\u0627\u0628\u0629 \u0643\u064f\u062a\u064a\u0628 \u0639\u0644\u0649 \u062c\u0647\u0627\u0632\u0643\u060c \u064a\u062d\u0648\u064a \u0643\u0646\u0648\u0632\u064b\u0627 \u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0644\u0627 \u064a\u0633\u0639\u064f \u0627\u0644\u0645\u0633\u0644\u0645 \u062a\u0631\u0643\u0647\u0627\u061b \u0645\u0646 \u0623\u0630\u0643\u0627\u0631\u064d \u0648\u0639\u0628\u0627\u062f\u0627\u062a\u064d \u0648\u0643\u064f\u062a\u0628\u064d \u0648\u0642\u0631\u0622\u0646\u064d \u0643\u0631\u064a\u0645\u064d \u0648\u0623\u062d\u0627\u062f\u064a\u062b\u064e\u060c \u0648\u0627\u0644\u0643\u062b\u064a\u0631 \u0645\u0646 \u0627\u0644\u0645\u062d\u062a\u0648\u0649 \u0627\u0644\u0630\u064a \u0633\u064a\u0646\u0641\u0639\u0643 \u0625\u0646 \u0634\u0627\u0621 \u0627\u0644\u0644\u0647.",p,A.bU($.hf,18,!1,p),p),B.v,p,p,new A.bC(m,p,l,s,p,p,B.Z),p,p,p,p,n,p,p,r),B.at,new A.ajs(q),new A.ajt(q),p)}}
+return A.ez(A.ca(p,A.bf("\u0643\u064f\u0646\u064f\u0648\u0632 \u0647\u0648 \u062a\u0637\u0628\u064a\u0642 \u0625\u0633\u0644\u0627\u0645\u064a \u0634\u0627\u0645\u0644\u060c \u0635\u0645\u0645\u062a\u0647 \u0644\u064a\u0643\u0648\u0646 \u0628\u0645\u062b\u0627\u0628\u0629 \u0643\u064f\u062a\u064a\u0628 \u0639\u0644\u0649 \u062c\u0647\u0627\u0632\u0643\u060c \u064a\u062d\u0648\u064a \u0643\u0646\u0648\u0632\u064b\u0627 \u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0644\u0627 \u064a\u0633\u0639\u064f \u0627\u0644\u0645\u0633\u0644\u0645 \u062a\u0631\u0643\u0647\u0627\u061b \u0645\u0646 \u0623\u0630\u0643\u0627\u0631\u064d \u0648\u0639\u0628\u0627\u062f\u0627\u062a\u064d \u0648\u0643\u064f\u062a\u0628\u064d \u0648\u0642\u0631\u0622\u0646\u064d \u0643\u0631\u064a\u0645\u064d \u0648\u0623\u062d\u0627\u062f\u064a\u062b\u064e\u060c \u0648\u0627\u0644\u0643\u062b\u064a\u0631 \u0645\u0646 \u0627\u0644\u0645\u062d\u062a\u0648\u0649 \u0627\u0644\u0630\u064a \u0633\u064a\u0646\u0641\u0639\u0643 \u0625\u0646 \u0634\u0627\u0621 \u0627\u0644\u0644\u0647.",p,A.bU($.hf,18,!1,p),p,p),B.v,p,p,new A.bC(m,p,l,s,p,p,B.Z),p,p,p,p,n,p,p,r),B.at,new A.ajs(q),new A.ajt(q),p)}}
 A.ajs.prototype={
 $1(a){var s=this.a
 s.a7(new A.ajr(s))},
@@ -73865,7 +73865,7 @@ $S:0}
 A.JT.prototype={
 dj(a,b){var s=null
 b.cY($.dV(),t.y)
-return A.ez(A.ba(A.a([B.ow,B.aB,A.bf("\u0645\u0631\u062d\u0628\u064b\u0627 \u0628\u0643 \u0641\u064a \u0645\u0648\u0642\u0639 \u062a\u0637\u0628\u064a\u0642 \u0643\u064f\u0646\u064f\u0648\u0632",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s)],t.p),B.n,B.p,B.m),B.at,s,s,s)}}
+return A.ez(A.ba(A.a([B.ow,B.aB,A.bf("\u0645\u0631\u062d\u0628\u064b\u0627 \u0628\u0643 \u0641\u064a \u0645\u0648\u0642\u0639 \u062a\u0637\u0628\u064a\u0642 \u0643\u064f\u0646\u064f\u0648\u0632",s,A.fo().$4$color$fontSize$fontWeight$letterSpacing($.hf,25,B.ao,0),s,s)],t.p),B.n,B.p,B.m),B.at,s,s,s)}}
 A.wu.prototype={
 a8(){return new A.V1()}}
 A.V1.prototype={
@@ -73873,7 +73873,7 @@ J(a){var s=this,r=null,q=A.aj(a,B.t,t.l).w,p=A.dE(35),o=s.w,n=o?B.aH:$.fd
 p=A.at9(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.dB(new A.cH(p,new A.bV(n,o?2.3:1.5,B.W,-1)),t._o),r,r,r,r,r,r)
 o=!o?B.Po:B.Px
 n=t.p
-return A.ba(A.a([A.ez(A.cJ(A.aur(A.azV(A.ba(A.a([A.a0P(o,B.jV,new A.alU()),B.aB,A.bf("\u0635\u0641\u062d\u0629 \u0627\u0644\u062a\u062d\u0645\u064a\u0644",r,A.bU(r,r,s.w,r),r)],n),B.n,B.bm,B.m),new A.alV(s)),new A.oK(p)),q.a.b*0.07,200),B.at,new A.alW(s),new A.alX(s),r)],n),B.n,B.bm,B.m)}}
+return A.ba(A.a([A.ez(A.cJ(A.aur(A.azV(A.ba(A.a([A.a0P(o,B.jV,new A.alU()),B.aB,A.bf("\u0635\u0641\u062d\u0629 \u0627\u0644\u062a\u062d\u0645\u064a\u0644",r,A.bU(r,r,s.w,r),r,r)],n),B.n,B.bm,B.m),new A.alV(s)),new A.oK(p)),q.a.b*0.07,200),B.at,new A.alW(s),new A.alX(s),r)],n),B.n,B.bm,B.m)}}
 A.alW.prototype={
 $1(a){var s=this.a
 s.a7(new A.alT(s))},
@@ -73929,7 +73929,7 @@ A.xG.prototype={
 dj(a,b){var s
 b.cY($.dV(),t.y)
 s=A.aOv(a)
-return A.ba(A.a([A.mG(A.oe(u.f),s),A.bf("\u0643\u0646\u0648\u0632",null,A.fo().$3$color$fontSize$fontWeight($.hf,this.e,B.ao),null)],t.p),B.n,B.p,B.m)}}
+return A.ba(A.a([A.mG(A.oe(u.f),s),A.bf("\u0643\u0646\u0648\u0632",null,A.fo().$3$color$fontSize$fontWeight($.hf,this.e,B.ao),null,null)],t.p),B.n,B.p,B.m)}}
 A.B8.prototype={
 a8(){return new A.ZP()}}
 A.ZP.prototype={
